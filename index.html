@@ -1,0 +1,31 @@
+<link rel = "stylesheet" href = "style.css">
+<script src = "script.js"></script>
+<title>Full Stack Calculator</title>
+<body>
+    <h1 style = "text-align: center;">Full Stack Calculator</h1>
+    <div class = "calculator">
+        <div class = "answer-box" id = "answer"></div>
+        <div class = "button-grid">
+            <button onclick = "digitPressed(event)">7</button>
+            <button onclick = "digitPressed(event)">8</button>
+            <button onclick = "digitPressed(event)">9</button>
+            <button onclick = "digitPressed(event)">4</button>
+            <button onclick = "digitPressed(event)">5</button>
+            <button onclick = "digitPressed(event)">6</button>
+            <button onclick = "digitPressed(event)">1</button>
+            <button onclick = "digitPressed(event)">2</button>
+            <button onclick = "digitPressed(event)">3</button>
+        </div>
+        <button style = "margin-left: 145px;" onclick = "digitPressed(event)">0</button>
+        <div class = "operator-grid">
+            <button onclick = "add()">+</button>
+            <button onclick = "sub()">-</button>
+            <button onclick = "multiply()">*</button>
+            <button onclick = "divide()">/</button>
+            <button onclick = "remainder()">%</button>
+            <button onclick = "power()">^</button>
+            <button onclick = "clearAnswer()">C</button>
+            <button onclick = "equals()">=</button>
+        </div>
+    </div>
+</body>
